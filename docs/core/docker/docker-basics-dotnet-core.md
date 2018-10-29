@@ -226,8 +226,7 @@ Step 3/7 : COPY *.csproj ./
  ---> 86c8c332d4b3
 Step 4/7 : RUN dotnet restore
  ---> Using cache
- ---> 86fcd7dd0ea4
-Step 5/7 : COPY . ./
+ ---> 86fcd7dd0ea4Step 5/7 : COPY . ./
  ---> Using cache
  ---> 6faf0a53607f
 Step 6/7 : RUN dotnet publish -c Release -o out
@@ -248,7 +247,7 @@ The output from the `docker run` command should be similar to the following cons
 Hello World!
 ```
 
-Congratulations! you have just:
+Congratulations! You have just:
 > [!div class="checklist"]
 > * Created a local .NET Core app
 > * Created a Dockerfile to build your first container
