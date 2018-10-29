@@ -216,7 +216,7 @@ The output from the `docker build` command should be similar to the following co
 
 ```console
 Sending build context to Docker daemon   173.1kB
-Step 1/7 : FROM microsoft/dotnet:2.1-sdk
+YStep 1/7 : FROM microsoft/dotnet:2.1-sdk
  ---> 288f8c45f7c2
 Step 2/7 : WORKDIR /app
  ---> Using cache
@@ -248,7 +248,7 @@ The output from the `docker run` command should be similar to the following cons
 Hello World!
 ```
 
-Congratulations! you have just:
+Congratulations! You have just:
 > [!div class="checklist"]
 > * Created a local .NET Core app
 > * Created a Dockerfile to build your first container
